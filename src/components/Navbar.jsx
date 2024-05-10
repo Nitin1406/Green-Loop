@@ -6,6 +6,7 @@ import { MdWebStories } from "react-icons/md";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TbLogin } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
@@ -25,20 +26,29 @@ const Navbar = () => {
 
           <div>
             <ul className="flex gap-8 xl:gap-14 text-lg text-gray-300">
-              <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
-                Home
-              </li>
+              <Link to="/">
+                <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
+                  Home
+                </li>
+              </Link>
 
+              <Link to="about">
               <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
                 About
               </li>
+              </Link>
 
+              <Link to="services">
               <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
                 Services
               </li>
+              </Link>
+
+              <Link to="prices">
               <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
                 Prices
               </li>
+              </Link>
 
               
             </ul>
