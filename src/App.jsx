@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import Footer from './components/Footer'
-import About from './components/About'
+import Sell from './components/Sell'
 import Services from './components/Services'
 import Prices from './components/Prices'
 import { FloatingWhatsApp } from "react-floating-whatsapp";
@@ -16,7 +16,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Landing/>}></Route>
-        <Route path="/about" element={<About />} />
+        <Route path="/sell" element={<Sell />} />
         <Route path="/prices" element={<Prices />} />
         <Route path="/services" element={<Services />} />
       </Routes>

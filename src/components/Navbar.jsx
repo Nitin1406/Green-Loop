@@ -32,9 +32,9 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="about">
+              <Link to="sell">
               <li className="hover:font-semibold hover:border-b-2 border-[#33CC33]">
-                About
+                Sell
               </li>
               </Link>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
             <li className="border-b  w-4/5 mx-auto py-2 flex justify-center items-center gap-2">
               {" "}
-              <MdOutlineProductionQuantityLimits /> About
+              <MdOutlineProductionQuantityLimits /> Sell
             </li>
             <li className="border-b  w-4/5 mx-auto py-2 flex justify-center items-center gap-2">
               <IoMdContacts />
